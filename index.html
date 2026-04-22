@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shuzycky | links</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            border-radius: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
+
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 3px solid #7f7fd5;
+            object-fit: cover;
+            box-shadow: 0 0 15px rgba(127, 127, 213, 0.4);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .description {
+            font-size: 0.9rem;
+            opacity: 0.6;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-card {
+            padding: 16px;
+            background: rgba(255, 255, 255, 0.07);
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            font-weight: 500;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .link-card:hover {
+            background: rgba(127, 127, 213, 0.2);
+            transform: scale(1.02);
+            border-color: #7f7fd5;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 0.7rem;
+            opacity: 0.3;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/87/40/01/87400192e424263725890f6a27bc9166.jpg" class="profile-img" alt="shuzycky">
+
+        <h1>shuzycky</h1>
+        <p class="description">Developer & Creator</p>
+
+        <div class="links">
+            <a href="https://t.me/shuzycky" class="link-card" target="_blank">Telegram</a>
+            <a href="https://youtube.com/@shuzycky?si=ownv5-y5ISsTA8Ak" class="link-card" target="_blank">YouTube</a>
+            <a href="https://www.tiktok.com/@shuzycky?_r=1&_t=ZS-95kGEyyQgpZ" class="link-card" target="_blank">TikTok</a>
+            <a href="https://www.instagram.com/shuzycky.sh?igsh=ZnM3ajBvdDJnOHV1" class="link-card" target="_blank">Instagram</a>
+            <a href="https://www.twitch.tv/shuzycky" class="link-card" target="_blank">Twitch</a>
+        </div>
+
+        <div class="footer">
+            BY SHUZYCKY | 2026
+        </div>
+    </div>
+
+</body>
+</html>
